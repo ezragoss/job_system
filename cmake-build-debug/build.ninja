@@ -57,14 +57,6 @@ build CMakeFiles/vcpkg_test.dir/main.cpp.o: CXX_COMPILER__vcpkg_test_unscanned_D
   OBJECT_DIR = CMakeFiles/vcpkg_test.dir
   OBJECT_FILE_DIR = CMakeFiles/vcpkg_test.dir
 
-build CMakeFiles/vcpkg_test.dir/fiber.cpp.o: CXX_COMPILER__vcpkg_test_unscanned_Debug /Users/ezragoss/Dropbox/Projects/vcpkg-test/fiber.cpp || cmake_object_order_depends_target_vcpkg_test
-  DEFINES = -DFMT_SHARED
-  DEP_FILE = CMakeFiles/vcpkg_test.dir/fiber.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
-  INCLUDES = -isystem /Users/ezragoss/anaconda3/include -isystem /opt/homebrew/include
-  OBJECT_DIR = CMakeFiles/vcpkg_test.dir
-  OBJECT_FILE_DIR = CMakeFiles/vcpkg_test.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target vcpkg_test
@@ -73,7 +65,7 @@ build CMakeFiles/vcpkg_test.dir/fiber.cpp.o: CXX_COMPILER__vcpkg_test_unscanned_
 #############################################
 # Link the executable vcpkg_test
 
-build vcpkg_test: CXX_EXECUTABLE_LINKER__vcpkg_test_Debug CMakeFiles/vcpkg_test.dir/main.cpp.o CMakeFiles/vcpkg_test.dir/fiber.cpp.o | /Users/ezragoss/anaconda3/lib/libfmt.9.1.0.dylib /opt/homebrew/lib/libglm.dylib
+build vcpkg_test: CXX_EXECUTABLE_LINKER__vcpkg_test_Debug CMakeFiles/vcpkg_test.dir/main.cpp.o | /Users/ezragoss/anaconda3/lib/libfmt.9.1.0.dylib /opt/homebrew/lib/libglm.dylib
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6
   LINK_LIBRARIES = -Wl,-rpath,/Users/ezragoss/anaconda3/lib  /Users/ezragoss/anaconda3/lib/libfmt.9.1.0.dylib  /opt/homebrew/lib/libglm.dylib
   OBJECT_DIR = CMakeFiles/vcpkg_test.dir
