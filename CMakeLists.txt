@@ -8,9 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(fmt CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
 
-add_executable(vcpkg_test main.cpp
-        fiber.h
-        fiber.cpp)
+add_executable(vcpkg_test main.cpp)
 
 target_link_libraries(vcpkg_test PRIVATE fmt::fmt)
 target_link_libraries(vcpkg_test PRIVATE glm::glm)
