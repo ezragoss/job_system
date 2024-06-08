@@ -1,0 +1,6 @@
+{
+  "dependencies" : [ "fmt", {
+    "name" : "vulkan-sdk-components",
+    "version>=" : "1.3.280.0"
+  } ]
+}

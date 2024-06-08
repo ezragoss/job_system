@@ -1,0 +1,3 @@
+/Users/ezragoss/Dropbox/Projects/vcpkg-test/cmake-build-debug/CMakeFiles/vcpkg_test.dir
+/Users/ezragoss/Dropbox/Projects/vcpkg-test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ezragoss/Dropbox/Projects/vcpkg-test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
