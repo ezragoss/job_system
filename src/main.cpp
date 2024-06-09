@@ -1,7 +1,6 @@
 #include <iostream>
 
 #include <fmt/core.h>
-#include <glm/glm.hpp>
 
 #include <thread>
 
